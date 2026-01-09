@@ -1,0 +1,105 @@
+{
+  "problem_statement": "Students waste hours locating, verifying, and condensing high‑quality study material because notes are fragmented across personal drives, social groups, and uncurated platforms, leading to inefficient learning and exam stress.",
+  "target_users": "Undergraduate and graduate students in the US, EU, and APAC regions; high‑school juniors preparing for college entrance exams; and higher‑education institutions seeking a branded, data‑rich study portal.",
+  "solution": "A community‑driven study platform that aggregates vetted notes, applies AI to instantly summarise PDFs and generate flashcards, and rewards contributors through a gamified reputation/credit system. Integrated analytics and LMS connectors give institutions insight into student engagement, while a freemium model lowers entry barriers.",
+  "value_proposition": "Cut study time by up to 50% with AI‑condensed notes and auto‑generated flashcards, while earning reputation points that unlock premium tools and marketplace credits. Institutions gain actionable engagement metrics, and students enjoy a trusted, one‑stop library of peer‑validated content.",
+  "key_assumptions": [
+    "Students will consistently contribute high‑quality notes when incentivised by reputation points and marketplace credits.",
+    "AI summarisation and flashcard generation will achieve >85% accuracy on typical lecture PDFs within the first 6 months.",
+    "A seed of 10,000 curated notes is sufficient to create network effects for early adopters.",
+    "Universities will adopt branded portals for analytics if they see a measurable lift in student engagement.",
+    "Freemium conversion to paid tiers will reach at least 8% within 12 months.",
+    "Publisher partnerships can be secured without prohibitive licensing costs."
+  ],
+  "feasibility_score": 0.71,
+  "problem_clarity_score": 0.86,
+  "user_specificity_score": 0.91,
+  "market_type": "Platform",
+  "differentiation_strength": "HIGH",
+  "differentiation_explanation": "The platform uniquely blends AI‑powered PDF summarisation and flashcard generation with a gamified reputation economy and real‑time institutional analytics. Unlike existing note‑sharing services, content is auto‑curated for quality, instantly condensed for study efficiency, and tied to measurable outcomes for both students and campuses.",
+  "assumption_risk_score": 0.62,
+  "execution_complexity": "MEDIUM",
+  "validation_readiness": "READY_FOR_LANDING_PAGE",
+  "primary_risk_category": "MARKET",
+  "ethical_legal_sensitivity_level": "MEDIUM",
+  "ethical_legal_sensitivity_explanation": "Key concerns revolve around copyright infringement of uploaded lecture material, compliance with FERPA/GDPR for student data, and potential misuse for academic cheating. Mitigation includes automated copyright detection, opt‑in licensing with publishers, and strict moderation policies.",
+  "next_best_action": "LANDING_PAGE",
+  "market_size": {
+    "tam": "$1.5 trillion (global higher‑education & lifelong‑learning market)",
+    "sam": "$150 billion (online study‑aid, note‑sharing, and AI‑enhanced learning tools)",
+    "som": "$5 billion (target English‑speaking undergraduate & graduate market plus early institutional pilots)"
+  },
+  "competitors": [
+    {
+      "name": "Quizlet",
+      "strengths": "Massive user base, robust flashcard creation, strong brand recognition.",
+      "weaknesses": "Limited AI summarisation, content quality varies, primarily flashcards not full notes.",
+      "gaps": "No AI‑driven PDF summarisation, no institutional analytics, limited gamified reputation system."
+    },
+    {
+      "name": "Course Hero",
+      "strengths": "Large repository of user‑uploaded notes and past exams, subscription revenue model.",
+      "weaknesses": "Quality control issues, controversial copyright practices, high price barrier.",
+      "gaps": "No AI‑assisted summarisation, no gamified incentives, no integrated LMS connections."
+    },
+    {
+      "name": "Chegg Study",
+      "strengths": "Established brand, 24/7 tutoring, textbook solutions.",
+      "weaknesses": "Focus on paid tutoring, less community‑driven note sharing, limited personalization.",
+      "gaps": "No community reputation, no AI‑generated flashcards, no free tier for note discovery."
+    },
+    {
+      "name": "StudySoup",
+      "strengths": "Peer‑to‑peer note marketplace, credit‑based payment system.",
+      "weaknesses": "Fragmented content, no AI tools, manual moderation required.",
+      "gaps": "No automatic summarisation, no analytics for institutions, limited gamification."
+    },
+    {
+      "name": "Notion Community Templates",
+      "strengths": "Highly flexible note‑taking, strong creator community.",
+      "weaknesses": "No central searchable library, no AI summarisation, no built‑in monetisation.",
+      "gaps": "No structured marketplace, no reputation system, no institutional dashboards."
+    }
+  ],
+  "founder_problem_fit": 0.84,
+  "revenue_streams": [
+    "Freemium subscription (ad‑free, advanced AI limits, premium analytics)",
+    "Transaction fee on marketplace credit exchanges",
+    "Campus‑wide institutional licenses with white‑label branding",
+    "Enterprise API access for LMS integrations",
+    "Targeted, non‑intrusive education‑related advertising"
+  ],
+  "key_metrics": [
+    "Daily Active Users (DAU) / Monthly Active Users (MAU)",
+    "Content upload rate per active user",
+    "Average AI summarisation accuracy (human‑rated)",
+    "Conversion rate from free to premium",
+    "Churn rate of premium subscribers",
+    "Marketplace transaction volume",
+    "Institutional license renewal rate",
+    "Net Promoter Score (NPS)"
+  ],
+  "unfair_advantage": "Early‑stage, education‑fine‑tuned large‑language model delivering superior summarisation; proprietary reputation‑credit economy that aligns incentives; and strategic pilot partnerships with two midsize universities for branded analytics dashboards.",
+  "mvp_scope": {
+    "core_features": [
+      "User registration & profile with reputation ledger",
+      "Upload, tag, and search notes (PDF & markdown)",
+      "AI‑driven summarisation endpoint (30‑page limit)",
+      "Automatic flashcard generation from summaries",
+      "Community voting & quality‑score overlay",
+      "Basic marketplace for credit‑based note exchange",
+      "Dashboard with personal study analytics"
+    ],
+    "build_complexity": "3_MONTHS"
+  },
+  "customer_acquisition_channels": [
+    "Campus ambassador programs",
+    "TikTok & Instagram short‑form video campaigns",
+    "Targeted Google & YouTube ads for exam prep queries",
+    "Partnerships with student societies and academic clubs",
+    "SEO‑optimized blog content around study hacks and exam guides",
+    "Referral rewards tied to reputation points"
+  ],
+  "desirability_score": 0.78,
+  "viability_score": 0.75
+}
